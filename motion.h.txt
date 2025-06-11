@@ -1,0 +1,10 @@
+// src/motion.h
+
+#pragma once
+
+#include <Arduino.h>
+
+/// @brief Reads the PIR sensor pin and returns true if motion is currently detected.
+/// @param sensorPin The GPIO pin number where the PIR sensor output is connected.
+/// @return true if the PIR output is HIGH (motion), false otherwise.
+bool detectMotion(int sensorPin);
